@@ -1,0 +1,79 @@
+:root {
+  --purple: rgb(102, 26, 255);
+  --dark-gray: rgb(88, 80, 79);
+  --light-gray: rgb(242, 242, 242);
+  --white: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 95vh;
+}
+
+.main-header {
+  height: 8%;
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 5vh;
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
