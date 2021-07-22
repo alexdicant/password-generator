@@ -23,10 +23,17 @@ h1 {
   font-weight: 600;
 }
 
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .main {
   height: 95vh;
 }
 
 .footer {
   height: 5vh;
+  background-color: var(--purple);
+  color: var(--white);
 }
