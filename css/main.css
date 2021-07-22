@@ -1,15 +1,32 @@
 :root {
-    --purple: rgb(102, 26, 255);
-    --dark-gray:  rgb(217, 217, 217);
-    --light-gray: rgb(242, 242, 242);
-    --white: rgb(255, 255, 255);
+  --purple: rgb(102, 26, 255);
+  --dark-gray:  rgb(88, 80, 79);
+  --light-gray: rgb(242, 242, 242);
+  --white: rgb(255, 255, 255);
 }
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+h1 {
+  font-size:4.5rem;
+  font-weight: 600;
+}
+
+.main {
+  height: 95vh;
+}
+
+.footer {
+  height: 5vh;
 }
