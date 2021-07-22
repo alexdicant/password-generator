@@ -1,11 +1,11 @@
 :root {
   --purple: rgb(102, 26, 255);
-  --dark-gray:  rgb(88, 80, 79);
+  --dark-gray: rgb(88, 80, 79);
   --light-gray: rgb(242, 242, 242);
   --white: rgb(255, 255, 255);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font-size:4.5rem;
+  font-size: 4.5rem;
   font-weight: 600;
 }
 
@@ -30,6 +30,20 @@ h1 {
 
 .main {
   height: 95vh;
+}
+
+.main-header {
+  height: 8%;
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
