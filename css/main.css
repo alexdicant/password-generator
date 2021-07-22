@@ -1,0 +1,15 @@
+:root {
+    --purple: rgb(102, 26, 255);
+    --dark-gray:  rgb(217, 217, 217);
+    --light-gray: rgb(242, 242, 242);
+    --white: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
