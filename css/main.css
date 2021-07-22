@@ -50,4 +50,21 @@ h1 {
   height: 5vh;
   background-color: var(--purple);
   color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
