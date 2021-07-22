@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background: var(--purple);
+  color: var(--white);
+}
+
 body {
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
@@ -72,11 +77,16 @@ MAIN
 /* TODO: Arreglar boton */
 .button-square {
   background: var(--purple);
-  height: 100%;
   border: none;
-  width: 50px;
+  height: 67px;
+  width: 67px;
   border-radius: 2px;
   color: var(--white);
+  cursor: pointer;
+}
+
+.button-square:hover {
+  background: rgba(102, 26, 255, 0.95);
 }
 
 .main-content__pass-box {
