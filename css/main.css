@@ -76,6 +76,9 @@ MAIN
 
 /* TODO: Arreglar boton */
 .button-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--purple);
   border: none;
   height: 67px;
@@ -85,8 +88,12 @@ MAIN
   cursor: pointer;
 }
 
+.button-square svg {
+  height: 2rem;
+}
+
 .button-square:hover {
-  background: rgba(102, 26, 255, 0.95);
+  background: rgb(93, 23, 233);
 }
 
 .main-content__pass-box {
