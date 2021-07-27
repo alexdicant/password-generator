@@ -67,12 +67,22 @@ MAIN
   margin-bottom: 2rem;
 }
 
-.main-content__pass {
+.content__pass {
   width: 80%;
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 3rem;
+}
+
+.content__pass-box {
+  display: block;
+  text-align: center;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  padding: 0.25rem 2rem;
+  width: 80%;
+  font-size: 2.5rem;
 }
 
 /* TODO: Arreglar boton */
@@ -95,16 +105,6 @@ MAIN
 
 .button-square:hover {
   background: rgb(93, 23, 233);
-}
-
-.main-content__pass-box {
-  display: block;
-  text-align: center;
-  border: 2px solid var(--purple);
-  border-radius: 4px;
-  padding: 0.25rem 2rem;
-  width: 80%;
-  font-size: 2.5rem;
 }
 
 /***
