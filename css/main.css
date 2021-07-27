@@ -118,12 +118,12 @@ FOOTER
   font-weight: 200;
 }
 
-.footer a {
+.footer__linck {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.footer a:hover {
+.footer__linck:hover {
   text-decoration: underline;
 }
 
