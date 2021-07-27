@@ -85,7 +85,6 @@ MAIN
   font-size: 2.5rem;
 }
 
-/* TODO: Arreglar boton */
 .button-square {
   display: flex;
   justify-content: center;
@@ -99,7 +98,7 @@ MAIN
   cursor: pointer;
 }
 
-.button-square img {
+.button-square__icon {
   height: 2rem;
 }
 
