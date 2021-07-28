@@ -1,0 +1,63 @@
+/* Selec button */
+
+.checkboxs-section {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkboxs__ABC {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.checkboxs__abc {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.toggle {
+  background-color: var(--light-gray);
+  width: 60px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-active {
+  background-color: blue;
+  width: 60px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.checkbox-button {
+  display: none;
+}
+
+.slider {
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.checkbox-button:checked + .toggle {
+  background-color: var(--purple);
+}
+
+.checkbox-button:checked + .toggle > .slider {
+  align-self: flex-end;
+}
