@@ -1,13 +1,6 @@
 /* Selec button */
 
-.checkboxs-section {
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.checkboxs__ABC {
+.checkboxs {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -15,15 +8,7 @@
   font-weight: 600;
 }
 
-.checkboxs__abc {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.toggle {
+.checkbox__toggle {
   background-color: var(--light-gray);
   width: 60px;
   height: 32px;
@@ -42,11 +27,11 @@
   align-items: flex-end;
 }
 
-.checkbox-button {
+.checkbox {
   display: none;
 }
 
-.slider {
+.checkbox__slider {
   height: 24px;
   width: 24px;
   background-color: white;
@@ -54,10 +39,10 @@
   margin: 4px;
 }
 
-.checkbox-button:checked + .toggle {
+.checkbox:checked + .checkbox__toggle {
   background-color: var(--purple);
 }
 
-.checkbox-button:checked + .toggle > .slider {
+.checkbox:checked + .checkbox__toggle > .checkbox__slider {
   align-self: flex-end;
 }

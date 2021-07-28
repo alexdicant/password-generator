@@ -109,6 +109,21 @@ MAIN
   background: rgb(93, 23, 233);
 }
 
+.checkboxs-section {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkboxs-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 /***
 FOOTER
 ***/
