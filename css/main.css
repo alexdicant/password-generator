@@ -5,6 +5,7 @@
   --purple: rgb(102, 26, 255);
   --dark-gray: rgb(88, 80, 79);
   --light-gray: rgb(242, 242, 242);
+  --inactive-grey: rgb(174, 184, 192);
   --white: rgb(255, 255, 255);
 }
 
@@ -120,6 +121,10 @@ MAIN
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.content--space {
+  height: 8rem;
 }
 
 /***
