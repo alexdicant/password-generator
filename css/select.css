@@ -1,11 +1,12 @@
 /* Selec button */
 
-.checkboxs {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+.checkboxs__title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.checkbox {
+  display: none;
 }
 
 .checkbox__toggle {
@@ -17,7 +18,7 @@
   flex-direction: column;
 }
 
-.toggle-active {
+.checkbox__toggle--active {
   background-color: blue;
   width: 60px;
   height: 32px;
@@ -25,10 +26,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.checkbox {
-  display: none;
 }
 
 .checkbox__slider {
