@@ -1,0 +1,49 @@
+/* Selec button */
+
+.checkboxs__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.checkboxs__title--inactive {
+  color: var(--inactive-grey);
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox__toggle {
+  background-color: var(--light-gray);
+  width: 60px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox__toggle--active {
+  background-color: var(--purple);
+  width: 60px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.checkbox__slider {
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.checkbox:checked + .checkbox__toggle {
+  background-color: var(--purple);
+}
+
+.checkbox:checked + .checkbox__toggle > .checkbox__slider {
+  align-self: flex-end;
+}
